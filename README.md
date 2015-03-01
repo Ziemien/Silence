@@ -4,7 +4,7 @@ Extremely simple app to change volume of the android device from OSX. It was bui
 There is probably loads of similar apps out there which allow to control different devices but I just needed something simple :)
 
 It's probably a bit rubbish right now but it works.
-
+![OSX Volume Control](/img/osx.png?raw=true "OSX Volume Control")
 Requires:
 ---------
   * PubNub pubnub.com
