@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57B4D241AA3389000AD9D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57B4D231AA3389000AD9D92 /* AppDelegate.m */; };
+		C57B4D261AA3389000AD9D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57B4D251AA3389000AD9D92 /* main.m */; };
+		C57B4D281AA3389000AD9D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57B4D271AA3389000AD9D92 /* Images.xcassets */; };
+		C57B4D371AA3389000AD9D92 /* SilenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57B4D361AA3389000AD9D92 /* SilenceTests.m */; };
+		C57B4D411AA33FB700AD9D92 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57B4D401AA33FB700AD9D92 /* Media.xcassets */; };
+		C57B4D431AA3410500AD9D92 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57B4D421AA3410500AD9D92 /* Application.xib */; };
+		FC8371BEC8D1ECA2D46A300D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AB8AC3462824C3330538F5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C57B4D311AA3389000AD9D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57B4D151AA3389000AD9D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57B4D1C1AA3389000AD9D92;
+			remoteInfo = Silence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71AB8AC3462824C3330538F5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4DCBBCAA7ACD28BDFA5E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C57B4D1D1AA3389000AD9D92 /* Silence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57B4D211AA3389000AD9D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57B4D221AA3389000AD9D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C57B4D231AA3389000AD9D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C57B4D251AA3389000AD9D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C57B4D271AA3389000AD9D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C57B4D301AA3389000AD9D92 /* SilenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57B4D351AA3389000AD9D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57B4D361AA3389000AD9D92 /* SilenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilenceTests.m; sourceTree = "<group>"; };
+		C57B4D401AA33FB700AD9D92 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C57B4D421AA3410500AD9D92 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		C97CCAB77AF3C185CD811E6E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57B4D1A1AA3389000AD9D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8371BEC8D1ECA2D46A300D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57B4D2D1AA3389000AD9D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D7C028790EFB8DFAB2D870C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71AB8AC3462824C3330538F5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C57B4D141AA3389000AD9D92 = {
+			isa = PBXGroup;
+			children = (
+				C57B4D1F1AA3389000AD9D92 /* Silence */,
+				C57B4D331AA3389000AD9D92 /* SilenceTests */,
+				C57B4D1E1AA3389000AD9D92 /* Products */,
+				E013C9C1C1BB2B2553F83D16 /* Pods */,
+				8D7C028790EFB8DFAB2D870C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C57B4D1E1AA3389000AD9D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57B4D1D1AA3389000AD9D92 /* Silence.app */,
+				C57B4D301AA3389000AD9D92 /* SilenceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57B4D1F1AA3389000AD9D92 /* Silence */ = {
+			isa = PBXGroup;
+			children = (
+				C57B4D231AA3389000AD9D92 /* AppDelegate.m */,
+				C57B4D221AA3389000AD9D92 /* AppDelegate.h */,
+				C57B4D271AA3389000AD9D92 /* Images.xcassets */,
+				C57B4D201AA3389000AD9D92 /* Supporting Files */,
+				C57B4D421AA3410500AD9D92 /* Application.xib */,
+			);
+			path = Silence;
+			sourceTree = "<group>";
+		};
+		C57B4D201AA3389000AD9D92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57B4D211AA3389000AD9D92 /* Info.plist */,
+				C57B4D251AA3389000AD9D92 /* main.m */,
+				C57B4D401AA33FB700AD9D92 /* Media.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57B4D331AA3389000AD9D92 /* SilenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C57B4D361AA3389000AD9D92 /* SilenceTests.m */,
+				C57B4D341AA3389000AD9D92 /* Supporting Files */,
+			);
+			path = SilenceTests;
+			sourceTree = "<group>";
+		};
+		C57B4D341AA3389000AD9D92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57B4D351AA3389000AD9D92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E013C9C1C1BB2B2553F83D16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90D4DCBBCAA7ACD28BDFA5E0 /* Pods.debug.xcconfig */,
+				C97CCAB77AF3C185CD811E6E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C57B4D1C1AA3389000AD9D92 /* Silence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57B4D3A1AA3389000AD9D92 /* Build configuration list for PBXNativeTarget "Silence" */;
+			buildPhases = (
+				C4B1207DE0D7BDC86C2121AD /* Check Pods Manifest.lock */,
+				C57B4D191AA3389000AD9D92 /* Sources */,
+				C57B4D1A1AA3389000AD9D92 /* Frameworks */,
+				C57B4D1B1AA3389000AD9D92 /* Resources */,
+				A9C1ECC48BACD51F733C3D20 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Silence;
+			productName = Silence;
+			productReference = C57B4D1D1AA3389000AD9D92 /* Silence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C57B4D2F1AA3389000AD9D92 /* SilenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57B4D3D1AA3389000AD9D92 /* Build configuration list for PBXNativeTarget "SilenceTests" */;
+			buildPhases = (
+				C57B4D2C1AA3389000AD9D92 /* Sources */,
+				C57B4D2D1AA3389000AD9D92 /* Frameworks */,
+				C57B4D2E1AA3389000AD9D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57B4D321AA3389000AD9D92 /* PBXTargetDependency */,
+			);
+			name = SilenceTests;
+			productName = SilenceTests;
+			productReference = C57B4D301AA3389000AD9D92 /* SilenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57B4D151AA3389000AD9D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = TeamGoat;
+				TargetAttributes = {
+					C57B4D1C1AA3389000AD9D92 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 756MSMTJ5A;
+					};
+					C57B4D2F1AA3389000AD9D92 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C57B4D1C1AA3389000AD9D92;
+					};
+				};
+			};
+			buildConfigurationList = C57B4D181AA3389000AD9D92 /* Build configuration list for PBXProject "Silence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C57B4D141AA3389000AD9D92;
+			productRefGroup = C57B4D1E1AA3389000AD9D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57B4D1C1AA3389000AD9D92 /* Silence */,
+				C57B4D2F1AA3389000AD9D92 /* SilenceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57B4D1B1AA3389000AD9D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57B4D411AA33FB700AD9D92 /* Media.xcassets in Resources */,
+				C57B4D281AA3389000AD9D92 /* Images.xcassets in Resources */,
+				C57B4D431AA3410500AD9D92 /* Application.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57B4D2E1AA3389000AD9D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9C1ECC48BACD51F733C3D20 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B1207DE0D7BDC86C2121AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57B4D191AA3389000AD9D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57B4D261AA3389000AD9D92 /* main.m in Sources */,
+				C57B4D241AA3389000AD9D92 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57B4D2C1AA3389000AD9D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57B4D371AA3389000AD9D92 /* SilenceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C57B4D321AA3389000AD9D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C57B4D1C1AA3389000AD9D92 /* Silence */;
+			targetProxy = C57B4D311AA3389000AD9D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C57B4D381AA3389000AD9D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C57B4D391AA3389000AD9D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C57B4D3B1AA3389000AD9D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D4DCBBCAA7ACD28BDFA5E0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Silence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C57B4D3C1AA3389000AD9D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97CCAB77AF3C185CD811E6E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Silence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C57B4D3E1AA3389000AD9D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SilenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silence.app/Contents/MacOS/Silence";
+			};
+			name = Debug;
+		};
+		C57B4D3F1AA3389000AD9D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SilenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silence.app/Contents/MacOS/Silence";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57B4D181AA3389000AD9D92 /* Build configuration list for PBXProject "Silence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57B4D381AA3389000AD9D92 /* Debug */,
+				C57B4D391AA3389000AD9D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57B4D3A1AA3389000AD9D92 /* Build configuration list for PBXNativeTarget "Silence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57B4D3B1AA3389000AD9D92 /* Debug */,
+				C57B4D3C1AA3389000AD9D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57B4D3D1AA3389000AD9D92 /* Build configuration list for PBXNativeTarget "SilenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57B4D3E1AA3389000AD9D92 /* Debug */,
+				C57B4D3F1AA3389000AD9D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57B4D151AA3389000AD9D92 /* Project object */;
+}
